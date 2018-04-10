@@ -1,0 +1,38 @@
+#' PhysioSpace Based on Human Gene Expression Atlas
+#'
+#' HS_LUKK_Space spans a 369-dimension physiological space based on the Lukk et. al. paper "A global map of human gene expression",
+#' nature biotechnology 2010. Data downloaded from ArrayExpress, accession number E-MTAB-62.
+#'
+#'
+#' @format A matrix with genes as rows and different physiological dimensions in columns.
+#' Gene Entrez IDs are stored in rownames and space-dimension names in colnames.
+#' @docType data
+#' @usage data(HS_LUKK_Space)
+#' @source \url{https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-62/}
+"HS_LUKK_Space"
+
+#' PhysioSpace Based on GEO Gene Expression datasets
+#'
+#' HS_U133Plus2_Space spans a 192-dimension physiological space constructed from 108 different human gene expression datasets
+#' from GEO or "Gene Expression Omnibus". All datasets are measured by Affymetrix Human Genome U133 Plus 2.0 Array.
+#'
+#' Here's the list of datasets used for making this Space: GSE10843, GSE1145, GSE11882, GSE12390, GSE12485,
+#' GSE12486, GSE12583, GSE13828, GSE14711, GSE14897, GSE14970, GSE15175, GSE15176, GSE15491, GSE16093,
+#' GSE16654, GSE16694, GSE16963, GSE17476, GSE18147, GSE18180, GSE18618, GSE18676, GSE20033, GSE2109,
+#' GSE21222, GSE21243, GSE21610, GSE22167, GSE22246, GSE23402, GSE23583, GSE23968, GSE24223, GSE24487,
+#' GSE24530, GSE25090, GSE25417, GSE26451, GSE26455, GSE26672, GSE27206, GSE27280, GSE27924, GSE28406,
+#' GSE28490, GSE29115, GSE29625, GSE29783, GSE29819, GSE30038, GSE32474, GSE33025, GSE33066, GSE33109,
+#' GSE33325, GSE33536, GSE33903, GSE34211, GSE3526, GSE35373, GSE35603, GSE35864, GSE36098, GSE36609,
+#' GSE36634, GSE36667, GSE36754, GSE37258, GSE37842, GSE37896, GSE37982, GSE38069, GSE40438, GSE40444,
+#' GSE40709, GSE40751, GSE40873, GSE41804, GSE42073, GSE42114, GSE44841, GSE45537, GSE49541, GSE49910,
+#' GSE5281, GSE57083, GSE7179, GSE7234, GSE7307, GSE7624, GSE8331, GSE8590, GSE9171, GSE9196, GSE9440,
+#' GSE9510, GSE9709, GSE9770, GSE9832, GSE9834, GSE9835, GSE9843, GSE9865, GSE9891, GSE9894, GSE9940, GSE9941
+#'
+#'
+#' @format A matrix with genes as rows and different physiological dimensions in columns.
+#' Gene Entrez IDs are stored in rownames and space-dimension names in colnames.
+#' @docType data
+#' @usage data(HS_U133Plus2_Space)
+#' @source \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=[GSEXXXX]} (Replace GSEXXXX by one of the
+#' actual dataset series names listed in 'Details' section.)
+"HS_U133Plus2_Space"

@@ -1,0 +1,11 @@
+Package: PhysioSpaces
+Title: Data Package Containing Different PhysioSpaces
+Version: 0.0.0.9000
+Authors@R: person("Ali Hadizadeh Esfahani", "Developer", role = c("aut", "cre"),
+                     email = "esfahani@aices.rwth-aachen.de")
+Description: This packages provides different Physiological spaces to be used with PhysioSpaceMethods.
+Depends: R (>= 3.4.2)
+License: GNU General Public License v3.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
