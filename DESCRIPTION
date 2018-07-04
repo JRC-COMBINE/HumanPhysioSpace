@@ -1,5 +1,5 @@
-Package: PhysioSpaces
-Title: Data Package Containing Different PhysioSpaces
+Package: HumanPhysioSpace
+Title: Data Package Containing Different Human PhysioSpaces
 Version: 0.0.0.9000
 Authors@R: person("Ali Hadizadeh Esfahani", "Developer", role = c("aut", "cre"),
                      email = "esfahani@aices.rwth-aachen.de")
