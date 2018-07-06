@@ -1,5 +1,5 @@
 <h1>HumanPhysioSpace</h1>
-HumanPhysioSpace is a R data package which provides physiological spaces to be used with the package [PhysioSpaceMethods](https://github.com/JRC-COMBINE/PhysioSpaceMethods) for in depth analysis of human gene expression data.
+HumanPhysioSpace is a R data package which provides physiological spaces to be used with the package <a href="https://github.com/JRC-COMBINE/PhysioSpaceMethods">PhysioSpaceMethods</a> for in depth analysis of human gene expression data.
 
 #### Table of Contents
 **[Installation Instructions](#installation-instructions)**<br>
