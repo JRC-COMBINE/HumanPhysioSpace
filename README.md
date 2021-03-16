@@ -1,3 +1,7 @@
+## Notice: This repository is deprecated!
+Due to file size restrictions of GitHub, we moved HumanPhysioSpace to [a GitLab repository, hosted by RWTH Aachen university](https://git.rwth-aachen.de/jrc-combine/HumanPhysioSpace), and will continue support and development there.
+
+
 <h1>HumanPhysioSpace</h1>
 HumanPhysioSpace is a R data package which provides physiological spaces to be used with the package <a href="https://github.com/JRC-COMBINE/PhysioSpaceMethods">PhysioSpaceMethods</a> for in depth analysis of human gene expression data.
 
